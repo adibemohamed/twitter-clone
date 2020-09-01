@@ -1,20 +1,89 @@
 import React from 'react';
 import './Feed.css'; 
+import TweetBox from './Tweetbox';
 
 function Feed() {
     return (
-        <div>
+        <div className="feed">
             {/* Header */}
-           <div className="feed">
-               <h2 className="feed__header">Home</h2>
+           <div className="feed__header">
+               <h2>Home</h2>
            </div>
 
             {/* TweetBox */}
+            <Tweetbox />
 
 
            
 
             {/* Post */}
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
+            <h1>XYZ</h1>
 
         </div>
     )
