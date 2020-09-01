@@ -10,17 +10,18 @@ import PublishIcon from "@material-ui/icons/Publish";
 function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className="post">
-      <div claasName="post__avatar">
+      <div className="post__avatar">
         <Avatar />
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headerTest">
             <h3>
-              Adibe Mohamed{" "}
-              <span>
-                <VerifiedUserIcon className="post__badge" />
+              Adibe Mohamed{""}
+              <span className="post__headerSpecial">
+                <VerifiedUserIcon className="post__badge" /> @Abjadia
               </span>
+             
             </h3>
           </div>
           <div className="post__headerDescription">
@@ -28,12 +29,12 @@ function Post({ displayName, username, verified, text, image, avatar }) {
           </div>
         </div>
         <img src="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif"/>
-      </div>
-      <div className="post__fotter">
+      <div className="post__footer">
         <ChatBubbleIcon fontSize="small" />
         <RepeatIcon fontSize="small" />
         <FavoriteBorderIcon fontSize="small" />
         <PublishIcon fontSize="small" /> 
+      </div>
       </div>
     </div>
   );
