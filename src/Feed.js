@@ -18,14 +18,14 @@ function Feed() {
            
 
             {/* Post */} 
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post 
+            displayName="Adibe" 
+            username="adibe_mohamed"
+            verified={true}
+            text="Yooooooo it's working"
+            avatar=""
+            image="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif"
+            /> 
 
         </div>
     )
