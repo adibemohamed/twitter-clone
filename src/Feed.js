@@ -1,6 +1,6 @@
 import React from 'react';
 import './Feed.css'; 
-import TweetBox from './Tweetbox';
+import Tweetbox from './Tweetbox';
 
 function Feed() {
     return (
@@ -20,48 +20,10 @@ function Feed() {
             <h1>XYZ</h1>
             <h1>XYZ</h1>
             <h1>XYZ</h1>
+            <h1>XYZ</h1> 
             <h1>XYZ</h1>
             <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
+            <h1>XYZ</h1> 
             <h1>XYZ</h1>
             <h1>XYZ</h1>
             <h1>XYZ</h1>
