@@ -5,8 +5,7 @@ import Feed from './Feed';
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hello World🚀 🔥</h1>
+    <div className="app"> 
 
       {/* Sidebar */} 
       <Sidebar/>
