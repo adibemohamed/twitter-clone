@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css'; 
 import Tweetbox from './Tweetbox';
+import Post from './Post';
 
 function Feed() {
     return (
@@ -16,36 +17,8 @@ function Feed() {
 
            
 
-            {/* Post */}
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1> 
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1> 
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
-            <h1>XYZ</h1>
+            {/* Post */} 
+            <Post />
 
         </div>
     )
