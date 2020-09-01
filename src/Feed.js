@@ -3,6 +3,7 @@ import './Feed.css';
 import Tweetbox from './Tweetbox';
 import Post from './Post';
 import db from './firebase/firebase';
+import FlipMove from 'react-flip-move';
 
 function Feed() {
     const [posts, setPosts] = useState([]);
