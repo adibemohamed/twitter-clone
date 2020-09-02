@@ -14,9 +14,9 @@ function Tweetbox() {
             displayName: 'Adibe Mohamed',
             username: 'adibe_mohamed',
             verified: true,
-            image: 'https://pbs.twimg.com/media/EZxyuEqXsAM3EOh?format=jpg&name=small',
+            image: tweetImage,
             text: tweetMessage,
-            avatar: ""
+            avatar: "https://avatars2.githubusercontent.com/u/52131981?s=460&u=fde48fb7ed15f03d5cd9d19d3eb42c967065ecce&v=4"
         })
 
         setTweetMessage("");
@@ -26,7 +26,7 @@ function Tweetbox() {
     return <div className="tweetBox">
                <form>
                     <div className="tweetBox__input">
-                        <Avatar src=""/>
+                        <Avatar src="https://avatars2.githubusercontent.com/u/52131981?s=460&u=fde48fb7ed15f03d5cd9d19d3eb42c967065ecce&v=4"/>
                         <input 
                         onChange={e => setTweetMessage(e.target.value)}
                         value={tweetMessage}

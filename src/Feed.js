@@ -21,9 +21,11 @@ function Feed() {
            </div>
  
             <Tweetbox /> 
+                <FlipMove>
 
             {posts.map(post => (
                 <Post 
+                key={post.text} // for testing 
                 displayName={post.displayName}
                 username={post.username}
                 verified={post.verified}
@@ -31,7 +33,8 @@ function Feed() {
                 avatar={post.avatar}
                 image={post.image}
                 /> 
-            ))}
+                ))}
+                </FlipMove>
 
         </div>
     )
